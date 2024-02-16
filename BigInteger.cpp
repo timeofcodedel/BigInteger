@@ -6,7 +6,7 @@
 using namespace std;
 
 BigInteger::BigInteger() {
-    this->bigNumStr = "";
+    this->bigNumStr= "";
 }
 
 BigInteger::BigInteger(const vector<int> &val) {
