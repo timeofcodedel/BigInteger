@@ -3,7 +3,6 @@
 #include<algorithm>
 #include <string>
 #include <regex>
-
 using namespace std;
 
 BigInteger::BigInteger() {
