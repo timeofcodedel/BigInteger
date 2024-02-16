@@ -3,10 +3,11 @@
 #include<algorithm>
 #include <string>
 #include <regex>
+
 using namespace std;
 
 BigInteger::BigInteger() {
-    this->bigNumStr= "";
+    this->bigNumStr = "";
 }
 
 BigInteger::BigInteger(const vector<int> &val) {
@@ -223,8 +224,9 @@ bool operator<(const BigInteger &a, const BigInteger &b) {
 }
 
 bool operator==(const BigInteger &a, const BigInteger &b) {
-    if (BigInteger::compareNum(a, b) == -1)
+    if (BigInteger::compareNum(a, b) == -1) {
         return true;
+    }
     return false;
 }
 
